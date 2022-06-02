@@ -1,0 +1,59 @@
+.input {
+    height: 30px;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    color: hsl(183, 100%, 15%);
+    font-weight: 600;
+    border-radius: 2%;
+    text-align: right;
+    font-size: 22px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.input::placeholder {
+    font-size: 24px;
+    color: hsl(186, 14%, 43%);
+    font-size: 22px;
+}
+
+.input:focus {
+    outline: 3px solid hsl(173, 63%, 77%);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.input-custom {
+    width: 90px;
+    margin-left: 4px;
+}
+
+.input-custom::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-people-error {
+    outline: 3px solid hsl(13, 32%, 57%);
+}
+
+.input-people-error-msg {
+    color: hsl(13, 32%, 57%);
+    font-weight: 600;
+    font-size: 12px;
+    width: 100px;
+    margin-left: 200px;
+    margin-bottom: -6px;
+}
+
+.input-people-error:focus {
+    outline: 3px solid hsl(13, 32%, 57%);
+}
+
+@media screen and (max-width: 375) {
+    .input {
+        width: 30px;
+    }
+}

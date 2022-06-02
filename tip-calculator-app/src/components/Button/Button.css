@@ -1,0 +1,45 @@
+.btn {
+ outline: none;
+ border:none;
+ border-radius: 7%;
+ height: 40px;
+ font-size: 20px;
+ font-weight: 600;
+}
+
+.btn-tips:hover {
+    background-color:hsl(172, 67%, 45%);
+    color:hsl(183, 100%, 15%);
+    cursor: pointer;
+}
+
+.btn-tips-width {
+    width: 90px;
+}
+
+.btn-reset-width {
+    width: stretch;
+}
+
+.btn-tips {
+    background-color: hsl(183, 100%, 15%);
+    margin: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(183, 100%, 15%);
+}
+
+.btn-custom-tips {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(186, 14%, 43%);
+}
+
+.btn-active {
+    background-color:hsl(172, 67%, 45%);
+    color:hsl(183, 100%, 15%);
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 7%;
+}

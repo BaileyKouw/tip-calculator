@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .app {
+      height: 100vh;
+  }
+
+  img {
+    margin: 100px 0px 20px 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .app {
+    width: 100vw;
+  }
+  
+  img {
+    margin: 100px 0px 0px 10px;
+  }
+}
